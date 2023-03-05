@@ -1,0 +1,10 @@
+{
+    "plugins": [
+      ["prismjs", {
+          "languages": ["py", "splunk-spl", "ini"],
+          "plugins": ["line-numbers"],
+          "theme": "okaidia",
+          "css": true
+      }]
+    ]
+  }
