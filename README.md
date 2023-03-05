@@ -16,9 +16,9 @@ cd play-with-splunk
 ## Tutorials
 The following tutorials are included in this repository:
 
-Tutorial 1: Sample Full Stack App without Splunk
-Tutorial 2: Creating a REST Endpoint
-Tutorial 3: Integrating with External APIs
+* Tutorial 1: Sample Full Stack App without Splunk
+* Tutorial 2: Creating a REST Endpoint
+* Tutorial 3: Integrating with External APIs
 
 
 ## Contributing
