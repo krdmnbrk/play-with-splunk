@@ -13,7 +13,7 @@ cd play-with-splunk
 ```
 2. Navigate to a directory and follow the instructions in the README.md file.
 
-## Tutorials
+## Tutorials
 The following tutorials are included in this repository:
 
 Tutorial 1: Sample Full Stack App without Splunk
