@@ -13,12 +13,12 @@ cd play-with-splunk
 ```
 2. Navigate to a directory and follow the instructions in the README.md file.
 
-## Tutorials
-The following tutorials are included in this repository:
+## Sections
+The following sections are included in this repository:
 
-* Tutorial 1: Sample Full Stack App without Splunk
-* Tutorial 2: Creating a REST Endpoint
-* Tutorial 3: Integrating with External APIs
+* Section 1: Sample Full Stack App without Splunk
+* Section 2: Creating custom REST Endpoints
+* Section 3: Integrating with External APIs
 
 
 ## Contributing
