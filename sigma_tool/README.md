@@ -1,4 +1,5 @@
 # Sigma Tool
+
 ## Sample Full Stack App without Splunk
 
 In this section, I shared a full stack ([FReMP Stack](https://fremp.github.io/)) app that contains three main services.
@@ -18,7 +19,18 @@ Each sigma rule has four tab:
 > SOC enthusiasts already know Sigma but I would like to share the repo link for first-time hearers.
 > https://github.com/SigmaHQ/sigma
 
-Sample images:
+## Usage
+```sh
+git clone https://github.com/krdmnbrk/play-with-splunk
+cd play-with-splunk/sigma_tool
+docker compose up --build
+```
+Open your browser and navigate to localhost:8080
+> You should have already installed docker and git on your system.
+> https://www.docker.com/
+> https://git-scm.com/downloads
+
+## Sample images
 
 Savedsearch View
 ![Splunk Savedsearch View](images/savedsearch_view.png)
