@@ -25,7 +25,7 @@ git clone https://github.com/krdmnbrk/play-with-splunk
 cd play-with-splunk/sigma_tool
 docker compose up --build
 ```
-Open your browser and navigate to localhost:8080
+After building process, open your browser and navigate to localhost:8080
 > You should have already installed docker and git on your system.
 > https://www.docker.com/
 > https://git-scm.com/downloads

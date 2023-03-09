@@ -18,7 +18,8 @@ The following sections are included in this repository:
 
 * Section 1: Sample Full Stack App without Splunk
 * Section 2: Creating custom REST Endpoints
-* Section 3: Integrating with External APIs
+* Section 3: KV Store operations
+* Section 4: Create UI with Splunk React Toolkit
 
 
 ## Contributing
