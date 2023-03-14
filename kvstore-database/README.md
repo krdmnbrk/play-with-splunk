@@ -2,7 +2,7 @@
 
 ## How to Use KV Store as Database?
 
-[Medium Post | Play with Splunk | Sigma Rule Project - Configuring KV Store]()
+[Medium Post | Play with Splunk | Sigma Rule Project - Configuring KV Store](https://krdmnbrk.medium.com/play-with-splunk-sigma-rule-project-configuring-kv-store-d44cfde23aa4)
 
 In this section, I talked about Splunk KV Store. There are some scripts that helps to operate collection and a Splunk app.
 
