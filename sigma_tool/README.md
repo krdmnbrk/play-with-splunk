@@ -2,6 +2,8 @@
 
 ## Sample Full Stack App without Splunk
 
+[Medium Post | Play with Splunk | Full Stack App Development - Sigma Rule Project](https://medium.com/@krdmnbrk/play-with-splunk-full-stack-app-development-sigma-rule-project-9a6e20f148ef)
+
 In this section, I shared a full stack ([FReMP Stack](https://fremp.github.io/)) app that contains three main services.
 
 1. Backend (Python/Flask)
@@ -21,7 +23,7 @@ Each sigma rule has four tab:
 
 ## Usage
 ```sh
-git clone https://github.com/krdmnbrk/play-with-splunk
+git clone https://github.com/krdmnbrk/play-with-splunk.git
 cd play-with-splunk/sigma_tool
 docker compose up --build
 ```

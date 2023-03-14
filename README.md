@@ -17,9 +17,9 @@ cd play-with-splunk
 The following sections are included in this repository:
 
 * Section 1: Sample Full Stack App without Splunk
-* Section 2: Creating custom REST Endpoints
-* Section 3: KV Store operations
-* Section 4: Create UI with Splunk React Toolkit
+* Section 2: KV Store operations
+* Section 3: Creating custom REST Endpoints (inprogress)
+* Section 4: Create UI with Splunk React Toolkit (inprogress)
 
 
 ## Contributing
