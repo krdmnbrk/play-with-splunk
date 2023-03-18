@@ -16,10 +16,10 @@ cd play-with-splunk
 ## Sections
 The following sections are included in this repository:
 
-* Section 1: Sample Full Stack App without Splunk
-* Section 2: KV Store operations
-* Section 3: Creating custom REST Endpoints (inprogress)
-* Section 4: Create UI with Splunk React Toolkit (inprogress)
+* Section 1: [Sample Full Stack App without Splunk](https://github.com/krdmnbrk/play-with-splunk/tree/main/sigma_tool)
+* Section 2: [KV Store operations](https://github.com/krdmnbrk/play-with-splunk/tree/main/kvstore-database)
+* Section 3: Creating custom REST Endpoints (in progress)
+* Section 4: Create UI with Splunk React Toolkit (in progress)
 
 
 ## Contributing
