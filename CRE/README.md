@@ -29,7 +29,7 @@ git clone https://github.com/krdmnbrk/play-with-splunk.git
 Copy the app to your app folder
 
 ```bash
-cp -r play-with-splunk/CRE/custom_rest_endpoint $SPLUNK_HOME/etc/apps
+cp -r play-with-splunk/CRE/custom_rest_endpoint $SPLUNK_HOME/etc/apps/
 ```
 
 Restart Splunk
