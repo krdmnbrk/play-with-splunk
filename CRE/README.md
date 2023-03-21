@@ -2,7 +2,7 @@
 
 ## How to use custom REST endpoints as backend API?
 
-[Medium Post | Play with Splunk | Sigma Rule Project - Custom REST Endpoint](https://krdmnbrk.medium.com/play-with-splunk-sigma-rule-project-configuring-kv-store-d44cfde23aa4)
+[Medium Post | Play with Splunk | Sigma Rule Project - Custom REST Endpoint]
 
 In this section, I talked about Splunk custom REST endpoints. There are two Splunk apps.
 
