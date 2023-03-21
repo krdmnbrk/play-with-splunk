@@ -1,4 +1,3 @@
-import traceback
 import json
 import math
 from splunk.persistconn.application import PersistentServerConnectionApplication
@@ -95,7 +94,7 @@ class Backend(PersistentServerConnectionApplication):
             else:
                 return {'payload': request, 'status': 200}
         except BaseException as e:
-            return {'payload': {"result": str(traceback.format_exc())}, 'status': 500}
+            return {'payload': {"result": str(e)}, 'status': 500}
 
     def handleStream(self, handle, in_string):
         raise NotImplementedError(

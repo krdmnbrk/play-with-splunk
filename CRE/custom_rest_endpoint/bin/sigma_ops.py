@@ -37,7 +37,7 @@ def deleteFolder(folder_path):
 
 def downloadRepo():
     deleteFolder(repository_path)
-    r = requests.get("https://github.com/SigmaHQ/sigma/archive/master.zip")
+    r = requests.get("https://github.com/SigmaHQ/sigma/archive/master.zip", timeout=60)
     if r.ok:
         with open(zipped_repository_path, 'wb') as file:
             file.write(r.content)
