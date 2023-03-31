@@ -4,7 +4,7 @@
 
 In this section, I talked about developing frontend using SUIT.
 
-Read for details [Play with Splunk | Sigma Rule Project - Splunk UI Toolkit (SUIT)](https://krdmnbrk.medium.com/play-with-splunk-sigma-rule-project-custom-rest-endpoint-32a04edd02f0)
+Read for details [Play with Splunk | Sigma Rule Project - Splunk UI Toolkit (SUIT)](https://krdmnbrk.medium.com/play-with-splunk-sigma-rule-project-splunk-ui-toolkit-suit-dc3ea589a2fe)
 
 There is a .spl file you can easily install the app following the below steps.
 
