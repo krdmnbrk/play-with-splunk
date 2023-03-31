@@ -5,7 +5,7 @@ import 'prismjs/components/prism-ini.min';
 import 'prismjs/components/prism-json.min';
 import 'prismjs/components/prism-yaml.min';
 // import 'prismjs/themes/prism.min.css'
-import "./prism.css"
+// import "./prism.css"
 
 export default function Code({ code, language }) {
   useEffect(() => {
