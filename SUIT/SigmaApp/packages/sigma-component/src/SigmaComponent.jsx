@@ -3,7 +3,8 @@ import * as config from '@splunk/splunk-utils/config';
 import { createRESTURL } from '@splunk/splunk-utils/url';
 import { handleError, handleResponse, defaultFetchInit } from '@splunk/splunk-utils/fetch';
 import Table from '@splunk/react-ui/Table';
-import Chip from '@splunk/react-ui/Chip'
+import Chip from '@splunk/react-ui/Chip';
+import WaitSpinner from '@splunk/react-ui/WaitSpinner';
 
 
 async function getSigmaRules() {
@@ -45,30 +46,40 @@ function SigmaComponent() {
     }, [])
 
     return (
-        <Table stripeRows>
-            <Table.Head>
-                <Table.HeadCell>Title</Table.HeadCell>
-                <Table.HeadCell>Description</Table.HeadCell>
-                <Table.HeadCell>Level</Table.HeadCell>
-                <Table.HeadCell>Tags</Table.HeadCell>
-                <Table.HeadCell>Author</Table.HeadCell>
-                <Table.HeadCell>SPL</Table.HeadCell>
-            </Table.Head>
-            <Table.Body>
-                {
-                    rules.map(i => (
-                        <Table.Row key={i.id}>
-                            <Table.Cell>{ i.title }</Table.Cell>
-                            <Table.Cell>{ i.description }</Table.Cell>
-                            <Table.Cell>{ i.level }</Table.Cell>
-                            <Table.Cell>{ i.tags?.map(x => <Chip backgroundColor='#4f7cac' foregroundColor='white'>{x}</Chip>) }</Table.Cell>
-                            <Table.Cell>{ i.author?.split(",")?.map(x => <Chip>{x}</Chip>) }</Table.Cell>
-                            <Table.Cell>{ i.rule }</Table.Cell>
-                        </Table.Row>
-                    ))
-                }
-            </Table.Body>
-        </Table>
+        <>
+            {
+                rules.length === 0 ? 
+                <div>
+                    Sigma Rules downloading from GitHub. It may takes a while. Be sure your Splunk server can reach GitHub over the network.
+                </div>
+                :
+                <Table stripeRows>
+                    <Table.Head>
+                        <Table.HeadCell>Title</Table.HeadCell>
+                        <Table.HeadCell>Description</Table.HeadCell>
+                        <Table.HeadCell>Level</Table.HeadCell>
+                        <Table.HeadCell>Tags</Table.HeadCell>
+                        <Table.HeadCell>Author</Table.HeadCell>
+                        <Table.HeadCell>SPL</Table.HeadCell>
+                    </Table.Head>
+                    <Table.Body>
+                        {
+                            rules.map(i => (
+                                <Table.Row key={i.id}>
+                                    <Table.Cell>{ i.title }</Table.Cell>
+                                    <Table.Cell>{ i.description }</Table.Cell>
+                                    <Table.Cell>{ i.level }</Table.Cell>
+                                    <Table.Cell>{ i.tags?.map(x => <Chip backgroundColor='#4f7cac' foregroundColor='white'>{x}</Chip>) }</Table.Cell>
+                                    <Table.Cell>{ i.author?.split(",")?.map(x => <Chip>{x}</Chip>) }</Table.Cell>
+                                    <Table.Cell>{ i.rule }</Table.Cell>
+                                </Table.Row>
+                            ))
+                        }
+                    </Table.Body>
+                </Table>
+            }
+        </>
+        
     )
 }
 
