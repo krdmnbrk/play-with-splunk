@@ -4,7 +4,7 @@ import ColumnLayout from '@splunk/react-ui/ColumnLayout';
 import Table from '@splunk/react-ui/Table';
 import TabBar from '@splunk/react-ui/TabBar';
 import Chip from '@splunk/react-ui/Chip';
-import Clone from '@splunk/react-icons/Clone';
+import Clipboard from '@splunk/react-icons/Clipboard';
 import Paginator from '@splunk/react-ui/Paginator';
 import Search from '@splunk/react-ui/Search';
 import { stringify } from 'json-to-pretty-yaml';
@@ -220,7 +220,7 @@ cron_schedule = 0 * * * *`
             <div style={{marginBottom: 10, display: "inline"}}>
                 <Button
                     label="Copy"
-                    icon={<Clone />}
+                    icon={<Clipboard />}
                     onClick={() => copyElementToClipboard()}
                 />
                 <span id={`${dest}-copied`} style={{color: '#6f6f6f', fontSize: 12, WebkitUserSelect: "none", msUserSelect: "none", userSelect: "none", marginLeft: 10}} hidden>
